@@ -20,7 +20,7 @@ class AlienInvasion:
         """初始化游戏并且创建游戏资源"""
         pygame.init()
 
-        self.screen = pygame.display.set_mode((2400, 800))
+        self.screen = pygame.display.set_mode((2560, 1080))
         pygame.display.set_caption("Alien Invasion")
 
     def run_game(self):
